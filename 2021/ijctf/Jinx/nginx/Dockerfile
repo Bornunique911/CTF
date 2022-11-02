@@ -1,4 +1,4 @@
-FROM openresty/openresty
+FROM openresty/openresty:1.21.4.1-jammy-amd64
 
 RUN apt-get update
 RUN apt-get install -y iputils-ping
