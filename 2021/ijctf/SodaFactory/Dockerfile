@@ -1,4 +1,4 @@
-FROM node:19.0.0
+FROM node:19.0-buster-slim
 WORKDIR /app
 COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install
