@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:19.0.0
 
 RUN mkdir -p /home/ctf/app
 RUN mkdir /home/ctf/app/db
