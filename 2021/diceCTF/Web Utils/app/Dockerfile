@@ -1,4 +1,4 @@
-FROM node:15-buster-slim AS build
+FROM node:19.0-buster-slim AS build
 
 WORKDIR /app
 
@@ -13,7 +13,7 @@ RUN yarn
 
 COPY . .
 
-FROM node:15-buster-slim
+FROM node:19.0-buster-slim
 
 WORKDIR /app
 
