@@ -1,4 +1,4 @@
-FROM python:3.6-stretch
+FROM python:3.12-rc-slim-buster
 
 # We don't want to run our application as root if it is not strictly necessary, even in a container.
 # Create a user and a group called 'app' to run the processes.
