@@ -1,4 +1,4 @@
-FROM php:7.3-apache
+FROM php:8.1-apache
 COPY ./php.ini /usr/local/etc/php/
 COPY ./fl4g_h1hih1i_xxx.txt /home/
 RUN apt-get update \
