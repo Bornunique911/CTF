@@ -1,4 +1,4 @@
-FROM node:12.13.0-alpine
+FROM node:12-alpine
 
 # Install packages
 RUN apk --no-cache add supervisor
