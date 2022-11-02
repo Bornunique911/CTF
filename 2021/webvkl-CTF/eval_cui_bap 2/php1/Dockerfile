@@ -1,4 +1,4 @@
-FROM php:7.3-apache
+FROM php:8.1-apache
 COPY ./php.ini /usr/local/etc/php/
 COPY ./vaday_la_flag_hahah_hihihi_hoho.txt /
 RUN apt-get update \
