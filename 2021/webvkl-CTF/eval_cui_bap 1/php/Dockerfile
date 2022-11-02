@@ -1,4 +1,4 @@
-FROM php:7.3-apache
+FROM php:8.1-apache
 COPY ./php.ini /usr/local/etc/php/
 COPY ./wow_flag1_ne_hihi_31276414.txt /
 RUN apt-get update \
