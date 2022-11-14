@@ -1,4 +1,4 @@
-FROM python:3.8.2-alpine3.11
+FROM python:3.12-rc-slim
 RUN apk add --no-cache sqlite-dev
 
 WORKDIR /home/src
