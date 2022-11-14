@@ -1,4 +1,4 @@
-FROM node:lts-buster
+FROM node:19.0-bullseye-slim
 WORKDIR /srv/
 RUN apt-get update && apt-get -y install ssh
 
