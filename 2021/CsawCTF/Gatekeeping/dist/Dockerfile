@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.12-rc-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
 
