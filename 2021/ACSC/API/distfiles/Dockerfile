@@ -1,4 +1,4 @@
-FROM php:7.3-apache
+FROM php:8.2.0RC6-fpm-bullseye
 
 RUN echo "ACSC{this is fake flag}" > /flag
 RUN chmod 0444 /flag
