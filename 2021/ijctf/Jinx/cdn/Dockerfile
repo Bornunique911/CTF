@@ -1,4 +1,4 @@
-FROM python:3.12-rc-slim-buster
+FROM python:3.12-rc-slim
 
 RUN mkdir -p /app
 WORKDIR /app
